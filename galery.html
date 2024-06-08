@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>shop</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img class="logoal" src="images/logosaya.jpg" alt="/">
+                <h2>NIKE</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</li>
+                    <li><a href="galery.html">SHOP</li>
+                </ul>
+                <a href="https://t.me/shidiqalfajarr" class="btnlogin">CONTACT</a>
+            </div>
+            
+            <section class="slider-container">
+                <div class="slider-images">
+                  <div class="slider-img">
+                    <img src="Images/af1.png" alt="1" />
+                    <h1>NIKE</h1>
+                    <div class="details">
+                      <h2>NIKE</h2>
+                      <p>AIR FORCE 1</p>
+                    </div>
+                  </div>
+                  <div class="slider-img">
+                    <img src="Images/airjordan.png" alt="2" />
+                    <h1>NIKE</h1>
+                    <div class="details">
+                      <h2>NIKE</h2>
+                      <p>AIR JORDAN</p>
+                    </div>
+                  </div>
+                  <div class="slider-img">
+                    <img src="Images/airmax.png" alt="3" />
+                    <h1>NIKE</h1>
+                    <div class="details">
+                      <h2>NIKE</h2>
+                      <p>AIR MAX</p>
+                    </div>
+                  </div>
+                  <div class="slider-img active">
+                    <img src="Images/airzoom.png" alt="4" />
+                    <h1>NIKE</h1>
+                    <div class="details">
+                      <h2>NIKE</h2>
+                      <p>AIR ZOOM</p>
+                    </div>
+                  </div>
+                  <div class="slider-img active">
+                    <img src="Images/cortez.png" alt="5" />
+                    <h1>NIKE</h1>
+                    <div class="details">
+                      <h2>NIKE</h2>
+                      <p>CORTEZ</p>
+                    </div>
+                  </div>
+                  <div class="slider-img active">
+                    <img src="Images/blazer.png" alt="6" />
+                    <h1>NIKE</h1>
+                    <div class="details">
+                      <h2>NIKE</h2>
+                      <p>BLAZER</p>
+                    </div>
+                  </div>
+                  <div class="slider-img active">
+                    <img src="Images/dunk.png" alt="7" />
+                    <h1>NIKE</h1>
+                    <div class="details">
+                      <h2>NIKE</h2>
+                      <p>DUNK</p>
+                    </div>
+                  </div>    
+                </div>
+              </section>
+              <script src="js/jQuery.js"></script>
+              <script>
+                jQuery(document).ready(function ($) {
+                  $(".slider-img").on("click", function () {
+                    $(".slider-img").removeClass("active");
+                    $(this).addClass("active");
+                  });
+                });
+              </script>
+          
+          
+            </div>
+            <div class="footer">
+                <img src="images/logosaya.jpg" alt="shidiq">
+                <h3>NIKE</h3>
+                <p>Design by NIKE Copyright©2024 </p>
+            </div>
+        </div>
+       
+    </body>
+</html>
